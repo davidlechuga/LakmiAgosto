@@ -18,7 +18,7 @@
  .negocios_title {
    padding: 0 40px;
    font-weight: normal;
-   color: var(--title-color);
+   color: var(--title-gray-color);
 }
  
  .negocios_seccion1,
@@ -72,60 +72,13 @@
  }
 
  /* Responsive Web Design */
-@media (max-width:1192px){
-   .card-image{
-      height: 20em;
-   }
-}
 @media (max-width:828px){
-   .banner{
-      height: 20em;
-   }
    .card-logo{
       width: 40%;
    }
-   .card-image{
-      height: 16em;
-   }
-   .card-content{
-      font-size: 20px;
-      padding: 1em 2em;
-   }
-}
-@media (max-width:634px){
-   .banner{
-      width: 100vw;
-   }
-   .card-container{
-      width: 90vw;
-   }
-}
-@media (max-width:560px){
-   .banner{
-      height: 15em;
-   }
-   .card-container{
-      width: 100vw;
-   }
-   .card-content{
-      font-size: 18px;
-      padding: 1em;
-   }
-   .card-image{
-      height: 12em;
-   }
 }
 @media (max-width:408px){
-   .banner{
-      height: 12em;
-   }
-   .card-image{
-      height: 10em;
-   }
    .card-logo{
       width: 50%;
-   }
-   .card-content{
-      font-size: 16px;
    }
 }
