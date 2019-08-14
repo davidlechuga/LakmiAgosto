@@ -38,6 +38,6 @@ section {
 
 .encabezado1, .encabezado2{
     padding: 50px;
-    background: aquamarine;
+    background: var(--title-green-color);
     text-align: center;
                           }
