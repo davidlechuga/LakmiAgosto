@@ -1,0 +1,43 @@
+section {
+    margin-bottom: 20px;
+                                }
+
+.container {
+    max-width: 100%;
+                                }
+
+.seccion1, .seccion2, .seccion3, .seccion4, .seccion5, .seccion6, .seccion7, .seccion8 {
+    margin-bottom: 20px;
+    padding: 50px;
+
+                                }
+
+.col1seccion1, .col1seccion2, .col1seccion3, .col1seccion4, .col1seccion5, .col1seccion6, .col1seccion7, .col1seccion8 {
+    text-align: justify;
+    align-self: center;
+    margin-bottom: 25px;
+                                }
+
+.col2seccion1, .col2seccion2, .col2seccion3,.col2seccion4, .col2seccion5, .col2seccion6, .col2seccion7, .col2seccion8 {
+
+    align-self: center;
+    text-align: center; 
+    margin-bottom: 25px;
+                                }
+
+.iconseccion2{
+    block-size: 75px;
+             }
+
+
+.seccion2, .seccion4, .seccion7 {
+    background: cadetblue;
+
+                                }
+
+
+.encabezado1, .encabezado2{
+    padding: 50px;
+    background: aquamarine;
+    text-align: center;
+                          }
