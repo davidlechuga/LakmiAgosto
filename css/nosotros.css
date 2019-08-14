@@ -16,48 +16,14 @@
 }
 
 .banner{
-   margin: 1.5rem auto 4rem;
-   width: 95vw;
-   height: 25em;
    background-image: url('../images/home/home01.jpg');
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
- }
- .banner-layer{
-   height: 100%;
-   background-color: rgba(0,0,0,0.5);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   transition: background-color 0.2s ease-in-out;
- }
- .card-container{
-   width: 85vw;
-   background-color: var(--card-bg);
-   margin: 0 auto 4em;
  }
  .card-logo{
    width: 30%;
    display: block;
    margin: 0 auto 2rem;
  }
- .card-content{
-   font-size: 24px;
-   padding: 1em 3.5em;
-   color: var(--text-color);
- }
- .card-image{
-   display: block;
-   width: 100%;
-   height: 25em;
- }
- .card-list{
-   list-style: decimal;
-   padding: 0 2em;
- }
- .card-list > li{
-    margin-bottom: 0.5em;
- }
+
  .negocios_title {
    padding: 0 40px;
    font-weight: normal;
