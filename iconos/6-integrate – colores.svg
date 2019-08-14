@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="120" viewBox="0 0 100 120">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d2ff"/>
+      <stop offset="1" stop-color="#3a7bd5"/>
+    </linearGradient>
+    <clipPath id="clip-_6-integrate_1">
+      <rect width="100" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="_6-integrate_1" data-name="6-integrate – 1" clip-path="url(#clip-_6-integrate_1)">
+    <rect width="100" height="120" fill="#fff"/>
+    <g id="Grupo_6" data-name="Grupo 6" transform="translate(-2.348 18.348)">
+      <path id="Trazado_14" data-name="Trazado 14" d="M56.335,50.223A13.994,13.994,0,1,0,42.342,36.23,14.034,14.034,0,0,0,56.335,50.223Zm0,2.332c-9.445,0-27.987,4.548-27.987,13.994v7H84.322v-7C84.322,57.1,65.781,52.555,56.335,52.555Z" stroke="#fff" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
+      <rect id="Rectángulo_1" data-name="Rectángulo 1" width="21.642" height="21.642" rx="10.821" transform="translate(68.714 47.387)" stroke="#fff" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
+      <g id="Grupo_5" data-name="Grupo 5" transform="translate(72.06 50.42)">
+        <path id="Trazado_15" data-name="Trazado 15" d="M81.929,62.627h5.827V56.783h3.962v5.844h5.859v3.961H91.717V72.4H87.756V66.587H81.929Z" transform="translate(-81.929 -56.783)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

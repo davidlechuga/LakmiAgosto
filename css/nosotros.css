@@ -1,0 +1,178 @@
+.barra-sencundaria {
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: top 1s ease;
+   width: 100%;
+}
+
+.container {
+   max-width: 1240px;
+}
+:root{
+   --card-bg: #254061;
+   --title-color: #ddd;
+   --text-color: #bbb;
+}
+
+.banner{
+   margin: 1.5rem auto 4rem;
+   width: 95vw;
+   height: 25em;
+   background-image: url('../images/home/home01.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+ }
+ .banner-layer{
+   height: 100%;
+   background-color: rgba(0,0,0,0.5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: background-color 0.2s ease-in-out;
+ }
+ .card-container{
+   width: 85vw;
+   background-color: var(--card-bg);
+   margin: 0 auto 4em;
+ }
+ .card-logo{
+   width: 30%;
+   display: block;
+   margin: 0 auto 2rem;
+ }
+ .card-content{
+   font-size: 24px;
+   padding: 1em 3.5em;
+   color: var(--text-color);
+ }
+ .card-image{
+   display: block;
+   width: 100%;
+   height: 25em;
+ }
+ .card-list{
+   list-style: decimal;
+   padding: 0 2em;
+ }
+ .card-list > li{
+    margin-bottom: 0.5em;
+ }
+ .negocios_title {
+   padding: 0 40px;
+   font-weight: normal;
+   color: var(--title-color);
+}
+ 
+ .negocios_seccion1,
+ .negocios_seccion2 {
+   text-align: center;
+   padding: 5%; }
+ 
+ .negocios_seccion1 {
+   background: F1F1F1;
+   color: var(--text-color);
+}
+ 
+ .negocios_seccion2 {
+   background: #6997af;
+   color: white; }
+ 
+ .t_negocio1,
+ .t_negocio2 {
+   font-size: 1.2em; }
+
+   .valores_titulo {
+      font-weight: normal;
+      padding: 0 3.5em;
+      width: 100%;
+      color: var(--title-color);
+   }
+   
+   .valores1,
+   .valores2, .texto-valores  {
+      width: 100%;
+      padding: 1em 4em;
+      color: var(--text-color);
+   }
+   .texto-valores {
+      font-size: 24px;
+   }
+   
+   
+   .valores1 li,
+   .valores2 li {
+      background: url("../iconos/16-valores.svg") no-repeat center left / 1.5rem;
+      font-size: 1em;
+      padding-left: 3em;
+      margin: 1em;
+      list-style: none;
+   }
+   
+ /* .princi_negocios {
+   width: 85vw;
+   margin: 0 auto 4em;
+ } */
+/* Elementos con pseudoclases */
+ .banner-layer:hover{
+   background-color: rgba(0,0,0,0.6);
+ }
+
+ /* Responsive Web Design */
+@media (max-width:1192px){
+   .card-image{
+      height: 20em;
+   }
+}
+@media (max-width:828px){
+   .banner{
+      height: 20em;
+   }
+   .card-logo{
+      width: 40%;
+   }
+   .card-image{
+      height: 16em;
+   }
+   .card-content{
+      font-size: 20px;
+      padding: 1em 2em;
+   }
+}
+@media (max-width:634px){
+   .banner{
+      width: 100vw;
+   }
+   .card-container{
+      width: 90vw;
+   }
+}
+@media (max-width:560px){
+   .banner{
+      height: 15em;
+   }
+   .card-container{
+      width: 100vw;
+   }
+   .card-content{
+      font-size: 18px;
+      padding: 1em;
+   }
+   .card-image{
+      height: 12em;
+   }
+}
+@media (max-width:408px){
+   .banner{
+      height: 12em;
+   }
+   .card-image{
+      height: 10em;
+   }
+   .card-logo{
+      width: 50%;
+   }
+   .card-content{
+      font-size: 16px;
+   }
+}

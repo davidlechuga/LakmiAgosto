@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bahnschrift-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/bahnschrift-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/bahnschrift-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bahnschrift SemiCondensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bahnschrift-semicondensed.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bahnschrift SemiCondensed';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/bahnschrift-semicondensed-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bahnschrift SemiCondensed';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/bahnschrift-semicondensed-bold.ttf') format('truetype');
+}

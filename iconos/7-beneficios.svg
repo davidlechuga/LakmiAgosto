@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="120" viewBox="0 0 100 120">
+  <defs>
+    <clipPath id="clip-_7-beneficios">
+      <rect width="100" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="_7-beneficios" data-name="7-beneficios" clip-path="url(#clip-_7-beneficios)">
+    <rect width="100" height="120" fill="#fff"/>
+    <g id="Grupo_7" data-name="Grupo 7" transform="translate(1.748 23.23)">
+      <path id="Trazado_16" data-name="Trazado 16" d="M35.243,63.815h-10.6a1.675,1.675,0,0,0-1.738,1.6V82.725h14.08V65.418A1.674,1.674,0,0,0,35.243,63.815Z" transform="translate(0 -18.862)" fill="#060506"/>
+      <path id="Trazado_17" data-name="Trazado 17" d="M62.607,52.09H52a2.044,2.044,0,0,0-1.738,2.25V78.633h14.08V54.34A2.044,2.044,0,0,0,62.607,52.09Z" transform="translate(-9.55 -14.77)" fill="#060506"/>
+      <path id="Trazado_18" data-name="Trazado 18" d="M89.97,34.766h-10.6c-.96,0-1.738,1.435-1.738,3.205V72.587h14.08V37.971C91.708,36.2,90.93,34.766,89.97,34.766Z" transform="translate(-19.1 -8.724)" fill="#060506"/>
+      <path id="Trazado_19" data-name="Trazado 19" d="M66.981,11.615,52.937,9.77l1.651,3.687L22.9,27.914l2.87,6.458,31.7-14.465,1.612,3.6Z" fill="#060506"/>
+    </g>
+  </g>
+</svg>

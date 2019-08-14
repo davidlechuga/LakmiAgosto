@@ -1,0 +1,204 @@
+/* Reseteo de estilos */
+*, *::before, *::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+:root{
+   --body-bg:#efefef;
+   --nav-bg:#ddd; /* rgb(221, 221, 221);*/
+   --nav-text-color:#141414; /*rgb(20, 20, 20);*/
+   --nav-search-color: #b4b4b4; /*rgb(180,180,180);*/
+   --nav-search-focus: rgba(120,120,120,0.25);
+   /* --title-color: #7f7f7f; RGB 127
+   --text-color: #646464; RGB 100 */
+   --card-bg: #254061;
+   --title-color: #ddd;
+   --text-color: #bbb;
+}
+body {
+   padding-top: 60px;
+   font-family: 'Bahnschrift SemiCondensed';
+   font-weight: 300;
+   background-color: var(--body-bg);
+}
+
+/* Estilos de navbar */
+.nav-bg{
+   font-weight: 400;
+   background-color: var(--nav-bg);
+   font-size: 18px;
+}
+.nav-logo{
+   height: 40px;
+   width: 100px;
+}
+.input-group{
+   border-radius: 15px;
+   overflow: hidden;
+   border: 1px solid var(--nav-search-color);
+   transition: box-shadow .15s ease-in-out;
+}
+.form-control{
+   padding-right: 0.2rem;
+}
+.input-group-btn{
+   width: 2rem;
+   padding: 0.1rem;
+   font-size: 0.8rem;
+}
+.input-group-btn, .navbar .form-control{
+   border: none;
+   background-color: var(--nav-bg);
+   height: 1.6rem;
+}
+.navbar-light .navbar-nav .nav-link{
+   color: var(--nav-text-color);
+}
+
+/* Contenedores */
+.banner{
+   margin: 1.5rem auto 4rem;
+   width: 95vw;
+   height: 25em;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+ }
+ .banner-layer{
+   height: 100%;
+   background-color: rgba(0,0,0,0.5);
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   transition: background-color 0.2s ease-in-out;
+ }
+ .card-container{
+   width: 85vw;
+   background-color: var(--card-bg);
+   margin: 0 auto 4em;
+ }
+ .card-content{
+   font-size: 24px;
+   padding: 1em 3.5em;
+   color: var(--text-color);
+ }
+ .card-image{
+   display: block;
+   width: 100%;
+   height: 25em;
+ }
+ .list-decimal{
+   list-style: decimal;
+   padding: 0 2em;
+ }
+ .list-decimal > li{
+   margin-bottom: 0.5em;
+ }
+
+/* Estilos para títulos */
+.title, .title-section{
+   font-family: 'Bahnschrift Regular';
+   font-weight: 400;
+   text-align: center;
+   color: var(--title-color);
+}
+.title{
+   font-size: 13vw;
+   margin-bottom: 0;
+   cursor: default;
+}
+.title-section{
+   font-size: 50px;
+   margin-bottom: 1.2em;
+}
+
+/* Elementos con pseudoclases */
+.form-control:focus{
+   box-shadow: none;
+}
+.input-group:hover{
+   box-shadow: 0 0 .2rem .1rem var(--nav-search-focus);
+}
+.input-group-btn:enabled{
+   outline: none;
+}
+.banner-layer:hover{
+   background-color: rgba(0,0,0,0.6);
+ }
+
+/* Responsive Web Design */
+@media (max-width:1192px){
+   .card-image{
+      height: 20em;
+   }
+   .title{
+      padding-top: 0.08em;
+   }
+}
+@media (max-width:828px){
+   .banner{
+      height: 20em;
+   }
+   .card-image{
+      height: 16em;
+   }
+   .card-content{
+      font-size: 20px;
+      padding: 1em 2em;
+   }
+   .title{
+      padding-top: 0.25em;
+   }
+}
+@media (max-width:768px){
+   .title-section{
+      font-size: 40px;
+      margin-bottom: 1em;
+   }
+   .navbar .input-group{
+      width: 100%;
+   }
+}
+@media (max-width:634px){
+   .banner{
+      width: 100vw;
+   }
+   .card-container{
+      width: 90vw;
+   }
+   .title{
+      padding-top: 0.68em;
+   }
+}
+@media (max-width:560px){
+   .banner{
+      height: 15em;
+   }
+   .card-container{
+      width: 100vw;
+   }
+   .card-content{
+      font-size: 18px;
+      padding: 1em;
+   }
+   .card-image{
+      height: 12em;
+   }
+   .title{
+      padding-top: 0.45em;
+   }
+}
+@media (max-width:408px){
+   .banner{
+      height: 12em;
+   }
+   .card-image{
+      height: 10em;
+   }
+   .card-content{
+      font-size: 16px;
+   }
+   .title-section{
+      font-size: 34px;
+   }
+}

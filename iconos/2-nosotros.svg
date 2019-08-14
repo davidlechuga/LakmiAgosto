@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="120" viewBox="0 0 100 120">
+  <defs>
+    <clipPath id="clip-_2-nosotrps">
+      <rect width="100" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="_2-nosotrps" data-name="2-nosotrps" clip-path="url(#clip-_2-nosotrps)">
+    <rect width="100" height="120" fill="#fff"/>
+    <g id="Grupo_4" data-name="Grupo 4" transform="translate(1.711 24.693)">
+      <circle id="Elipse_2" data-name="Elipse 2" cx="12.661" cy="12.661" r="12.661" transform="translate(17.212 37.702) rotate(-67.5)" fill="#060607"/>
+      <circle id="Elipse_3" data-name="Elipse 3" cx="12.661" cy="12.661" r="12.661" transform="translate(50.355 23.816)" fill="#060607"/>
+      <path id="Trazado_13" data-name="Trazado 13" d="M63.016,57.967a42.483,42.483,0,0,0-7.5.765c-5.4-4.3-15.67-6.393-21.764-6.393C25.208,52.339,8.432,56.454,8.432,65v6.331H37.693v5.627H88.339v-6.33C88.339,62.082,71.563,57.967,63.016,57.967Z" transform="translate(0 -6.718)" fill="#060607"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+body {
+  background: #254061;
+}
+.banner__contact{
+   margin: 1.5rem auto 5rem;
+   width: 95vw;
+   height: 25em;
+    background: url("../images/contact-us-2993000_1920.jpg");
+       background-repeat: no-repeat;
+   background-size: 100% 100%;
+ }
+
+ .container, .col-12, .row{
+   padding: 0;
+ }
+
+.tel__section {
+  height: 100px;
+}
+
+ .title__contact {
+   height: 100px;
+ }
+
+ .title__contact h1 {
+   color: #ddd;
+   font-family: 'Bahnschrift Regular';
+   font-size: 3em;
+   font-weight: bold;
+ }
+
+.contact__info__mail {
+   background: rgba(97, 97, 95, 0.5);
+   border-radius: 15px;
+   margin: 1.5em;
+   padding: .5em;    
+ }
+
+ .contact__info__mail p,
+ .footer__empresa p {
+    color: #DDD;
+   	display: table-cell;
+	  margin: 0;
+	  padding: 0 1rem;
+	  vertical-align: middle;
+ }
+
+ .footer__empresa p {
+   color: black;
+ } 
+ .footer {
+  height: 100px;
+  background: #DDD;
+ }
+

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="120" viewBox="0 0 100 120">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d2ff"/>
+      <stop offset="1" stop-color="#3a7bd5"/>
+    </linearGradient>
+    <clipPath id="clip-_3-servicios_1">
+      <rect width="100" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="_3-servicios_1" data-name="3-servicios – 1" clip-path="url(#clip-_3-servicios_1)">
+    <rect width="100" height="120" fill="#fff"/>
+    <path id="Trazado_4" data-name="Trazado 4" d="M68.357,36.416V22.208a4.751,4.751,0,0,0-4.746-4.746H51.744V15.088A4.751,4.751,0,0,0,47,10.342H32.759a4.751,4.751,0,0,0-4.746,4.746v2.373H16.147A4.751,4.751,0,0,0,11.4,22.208V53.06a4.751,4.751,0,0,0,4.747,4.746H63.611a4.751,4.751,0,0,0,4.746-4.746V36.417Zm-35.6-21.328H47v2.373H32.759Z" transform="translate(10.6 32.825)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
