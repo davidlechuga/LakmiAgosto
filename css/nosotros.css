@@ -6,17 +6,8 @@
    width: 100%;
 }
 
-.container {
-   max-width: 1240px;
-}
-:root{
-   --card-bg: #254061;
-   --title-color: #ddd;
-   --text-color: #bbb;
-}
-
 .banner{
-   background-image: url('../images/home/home01.jpg');
+   background-image: url('../images/nosotros/nosotros01.jpg');
  }
  .card-logo{
    width: 30%;
@@ -75,10 +66,6 @@
       list-style: none;
    }
    
- /* .princi_negocios {
-   width: 85vw;
-   margin: 0 auto 4em;
- } */
 /* Elementos con pseudoclases */
  .banner-layer:hover{
    background-color: rgba(0,0,0,0.6);
