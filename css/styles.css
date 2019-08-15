@@ -86,7 +86,7 @@ body {
 .crumb-link{
    font-weight: 400;
    color: var(--text-black-color);
-   padding: 0.4em 0.6em;
+   padding: 0.4em;
 }
 
 /* Contenedores */
@@ -118,7 +118,7 @@ body {
 .title, .title-section{
    font-family: 'Bahnschrift Regular';
    font-weight: 400;
-   font-size: 40px;
+   font-size: 1.7em;
    color: var(--title-black-color);
    padding-left: 1em;
    margin-bottom: 1.2em;
@@ -145,62 +145,31 @@ body {
 }
 .crumb-item:not(:last-of-type)::after{
    content: '|';
-   padding: 0 0.5em;
+   color: var(--text-black-color);
+   padding: 0 0.1em;
 }
 .banner-layer:hover{
    background-color: rgba(0,0,0,0.6);
  }
 
 /* Responsive Web Design */
-@media (max-width:1192px){
-   .card-image{
-      height: 20em;
-   }
-   .title{
-      padding-top: 0.08em;
-   }
-}
-@media (max-width:828px){
-   .banner{
-      height: 20em;
-   }
-   .card-image{
-      height: 16em;
-   }
-}
 @media (max-width:768px){
-   .title-section{
-      font-size: 40px;
-      margin-bottom: 1em;
+   body{
+      font-size: 20px;
    }
    .navbar .input-group{
       width: 100%;
    }
 }
-@media (max-width:634px){
-   .banner{
-      width: 100vw;
-   }
-   .card-container{
-      width: 90vw;
-   }
-}
-@media (max-width:560px){
-   .banner{
-      height: 15em;
-   }
-   .card-image{
-      height: 12em;
-   }
-}
+
 @media (max-width:408px){
+   body{
+      font-size: 1.1rem;
+   }
    .banner{
       height: 12em;
    }
    .card-image{
       height: 10em;
-   }
-   .title-section{
-      font-size: 34px;
    }
 }
