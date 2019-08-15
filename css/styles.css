@@ -66,6 +66,24 @@ body {
    color: var(--text-black-color);
 }
 
+/* Migas de pan */
+.nav-crumbs{
+   list-style: none;
+   display: flex;
+   font-size: 1.1em;
+   padding: 0.4em 1em;
+   margin-bottom: 1.5em;
+   box-shadow: 0 8px 5px -4px rgba(0,0,0,0.15);
+}
+.crumb-item{
+   display: inline-block;
+}
+.crumb-link{
+   font-weight: 400;
+   color: var(--text-black-color);
+   padding: 0.4em 0.6em;
+}
+
 /* Contenedores */
 .banner{
    margin: 1.5rem auto 4rem;
@@ -82,19 +100,13 @@ body {
    align-items: flex-start;
    transition: background-color 0.2s ease-in-out;
  }
- .card-container{
-   width: 85vw;
-   background-color: var(--card-bg);
-   margin: 0 auto 4em;
- }
- .card-content{
-   padding: 1em;
-   color: var(--text-black-color);
- }
  .card-image{
    display: block;
    width: 100%;
    height: 25em;
+ }
+ .padding-x{
+   padding: 0 2em;
  }
 
 /* Estilos para títulos */
@@ -103,6 +115,7 @@ body {
    font-weight: 400;
    font-size: 40px;
    color: var(--title-black-color);
+   padding-left: 1em;
    margin-bottom: 1.2em;
    cursor: default;
 }
@@ -120,6 +133,14 @@ body {
 }
 .input-group-btn:enabled{
    outline: none;
+}
+.crumb-link:hover{
+   text-decoration: none;
+   color: black;
+}
+.crumb-item:not(:last-of-type)::after{
+   content: '|';
+   padding: 0 0.5em;
 }
 .banner-layer:hover{
    background-color: rgba(0,0,0,0.6);
@@ -141,13 +162,6 @@ body {
    .card-image{
       height: 16em;
    }
-   .card-content{
-      font-size: 20px;
-      padding: 1em 2em;
-   }
-   .title{
-      padding-top: 0.25em;
-   }
 }
 @media (max-width:768px){
    .title-section{
@@ -165,26 +179,13 @@ body {
    .card-container{
       width: 90vw;
    }
-   .title{
-      padding-top: 0.68em;
-   }
 }
 @media (max-width:560px){
    .banner{
       height: 15em;
    }
-   .card-container{
-      width: 100vw;
-   }
-   .card-content{
-      font-size: 18px;
-      padding: 1em;
-   }
    .card-image{
       height: 12em;
-   }
-   .title{
-      padding-top: 0.45em;
    }
 }
 @media (max-width:408px){
@@ -193,9 +194,6 @@ body {
    }
    .card-image{
       height: 10em;
-   }
-   .card-content{
-      font-size: 16px;
    }
    .title-section{
       font-size: 34px;
