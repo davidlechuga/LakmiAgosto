@@ -37,7 +37,11 @@ section {
 
 
 .encabezado1, .encabezado2{
-    padding: 50px;
     background: var(--title-green-color);
     text-align: center;
+    font-weight: 800;
+    -webkit-text-fill-color: white;
+    font-size: 23px;
+    padding-bottom: 40px;
+    padding-top: 40px;
                           }
