@@ -1,70 +1,71 @@
-.barra-sencundaria {
-   position: absolute;
-   top: 0;
-   left: 0;
-   transition: top 1s ease;
-   width: 100%;
-}
-
 .banner{
    background-image: url('../images/nosotros/nosotros01.jpg');
  }
- .card-logo{
+
+.card-logo{
    width: 30%;
    display: block;
    margin: 0 auto 2rem;
- }
+}
 
- .negocios_title {
-   padding: 0 40px;
-   font-weight: normal;
-   color: var(--title-gray-color);
+.row{
+   margin-bottom: 2em;
 }
  
- .negocios_seccion1,
- .negocios_seccion2 {
+.title-section-3{
+   margin-bottom: 1.2em;
+}
+
+
+.business-card {
+   font-size: 0.8em;
    text-align: center;
-   padding: 5%; }
- 
- .negocios_seccion1 {
-   background: F1F1F1;
-   color: var(--text-color);
+   color: var(--text-white-color);
+   padding: 0 3em;
+   height: 18em;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
 }
- 
- .negocios_seccion2 {
-   background: #6997af;
-   color: white; }
- 
- .t_negocio1,
- .t_negocio2 {
-   font-size: 1.2em; }
+.business-card:nth-of-type(2), .business-card:nth-of-type(3){
+   background-color: var(--title-blue-color);
+}
+.business-card:first-of-type, .business-card:last-of-type{
+   background-color: var(--title-green-color);
+}
 
-   .valores_titulo {
-      font-weight: normal;
-      padding: 0 3.5em;
-      width: 100%;
-      color: var(--title-color);
-   }
-   
-   .valores1,
-   .valores2, .texto-valores  {
-      width: 100%;
-      padding: 1em 4em;
-      color: var(--text-color);
-   }
-   .texto-valores {
-      font-size: 24px;
-   }
-   
-   
-   .valores1 li,
-   .valores2 li {
-      background: url("../iconos/16-valores.svg") no-repeat center left / 1.5rem;
-      font-size: 1em;
-      padding-left: 3em;
-      margin: 1em;
-      list-style: none;
-   }
+.valores{
+   list-style: none;
+   width: 100%;
+   padding: 1em 2em;
+   color: var(--text-white-color);
+   flex-wrap: wrap;
+   align-content: center;
+   /* align-items: center; */
+   justify-content: space-around;
+}
+.valores-item{
+   text-align: center;
+   /* width: 100%; */
+   width: 33%;
+   padding: 2em;
+   /* position: relative; */
+}
+.valores-item:nth-of-type(odd){
+   background-color: var(--title-green-color);
+}
+.valores-item:nth-of-type(even){
+   background-color: var(--title-blue-color);
+}
+/* .valores-item::before{
+   content: url("../iconos/16-valores.svg");
+   display: block;
+   height: 0.2em;
+   width: 0.2em;
+   position: absolute;
+   right: 100%;
+} */
    
 /* Elementos con pseudoclases */
  .banner-layer:hover{
@@ -80,5 +81,17 @@
 @media (max-width:408px){
    .card-logo{
       width: 50%;
+   }
+}
+
+@media (max-width:768px){
+   .valores-item{
+      width: 100%;
+   }
+   .business-card:nth-of-type(odd){
+      background-color: var(--title-green-color);
+   }
+   .business-card:nth-of-type(even){
+      background-color: var(--title-blue-color);
    }
 }

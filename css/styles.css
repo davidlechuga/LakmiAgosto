@@ -29,6 +29,7 @@ body {
    padding-top: 60px;
    font-family: 'Bahnschrift SemiCondensed';
    font-weight: 300;
+   font-size: 24px;
    background-color: var(--body-bg);
 }
 
@@ -87,8 +88,7 @@ body {
    margin: 0 auto 4em;
  }
  .card-content{
-   font-size: 24px;
-   padding: 1em 3.5em;
+   padding: 1em;
    color: var(--text-black-color);
  }
  .card-image{
@@ -101,17 +101,14 @@ body {
 .title, .title-section{
    font-family: 'Bahnschrift Regular';
    font-weight: 400;
-   text-align: center;
-   color: var(--title-color);
-}
-.title{
-   font-size: 13vw;
-   margin-bottom: 0;
+   font-size: 40px;
+   color: var(--title-black-color);
+   margin-bottom: 1.2em;
    cursor: default;
 }
-.title-section{
-   font-size: 50px;
-   margin-bottom: 1.2em;
+.title-line{
+   padding-bottom: 0.15em;
+   border-bottom: 3px solid var(--title-blue-color);
 }
 
 /* Elementos con pseudoclases */
