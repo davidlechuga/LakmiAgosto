@@ -11,17 +11,20 @@
 .row{
    margin-bottom: 3em;
 }
+.col-12{
+   padding: 0;
+}
  
 .title-section-3{
+   font-size: 1.5em;
    margin-bottom: 1.2em;
 }
 
 .business-card {
-   font-size: 0.8em;
+   /* font-size: 0.9em; */
    text-align: center;
    color: var(--text-white-color);
-   padding: 0 3em;
-   height: 18em;
+   padding: 3em 2em;
    display: flex;
    flex-wrap: wrap;
    align-content: center;
@@ -67,12 +70,6 @@
       width: 40%;
    }
 }
-@media (max-width:408px){
-   .card-logo{
-      width: 50%;
-   }
-}
-
 @media (max-width:768px){
    .valores-item{
       width: 100%;
@@ -83,4 +80,12 @@
    .business-card:nth-of-type(even){
       background-color: var(--title-blue-color);
    }
+}
+@media (max-width:408px){
+   .card-logo{
+      width: 50%;
+   }
+   /* .business-card{
+      padding: 3em 2em;
+   } */
 }
