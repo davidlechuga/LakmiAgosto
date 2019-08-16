@@ -76,7 +76,7 @@ body {
    font-size: 1.1em;
    padding: 0.4em 1em;
    margin-bottom: 1.5em;
-   box-shadow: 0 8px 5px -4px rgba(0,0,0,0.15);
+   box-shadow: 0 3px 5px rgba(0,0,0,0.15);
 }
 .crumb-item{
    display: inline-block;
