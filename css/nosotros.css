@@ -1,131 +1,91 @@
-.barra-sencundaria {
-   position: absolute;
-   top: 0;
-   left: 0;
-   transition: top 1s ease;
-   width: 100%;
-}
-
 .banner{
    background-image: url('../images/nosotros/nosotros01.jpg');
- }
- .card-logo{
+}
+
+.card-logo{
    width: 30%;
    display: block;
    margin: 0 auto 2rem;
- }
+}
 
- .negocios_title {
-   padding: 0 40px;
-   font-weight: normal;
-   color: var(--title-color);
+.row{
+   margin-bottom: 3em;
+}
+.col-12{
+   padding: 0;
 }
  
- .negocios_seccion1,
- .negocios_seccion2 {
+.title-section-3{
+   font-size: 1.5em;
+   margin-bottom: 1.2em;
+}
+
+.business-card {
+   /* font-size: 0.9em; */
    text-align: center;
-   padding: 5%; }
- 
- .negocios_seccion1 {
-   background: F1F1F1;
-   color: var(--text-color);
+   color: var(--text-white-color);
+   padding: 3em 2em;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
 }
- 
- .negocios_seccion2 {
-   background: #6997af;
-   color: white; }
- 
- .t_negocio1,
- .t_negocio2 {
-   font-size: 1.2em; }
 
-   .valores_titulo {
-      font-weight: normal;
-      padding: 0 3.5em;
-      width: 100%;
-      color: var(--title-color);
-   }
-   
-   .valores1,
-   .valores2, .texto-valores  {
-      width: 100%;
-      padding: 1em 4em;
-      color: var(--text-color);
-   }
-   .texto-valores {
-      font-size: 24px;
-   }
-   
-   
-   .valores1 li,
-   .valores2 li {
-      background: url("../iconos/16-valores.svg") no-repeat center left / 1.5rem;
-      font-size: 1em;
-      padding-left: 3em;
-      margin: 1em;
-      list-style: none;
-   }
+.valores{
+   list-style: none;
+   width: 100%;
+   padding: 1em 0;
+   color: var(--text-white-color);
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.valores-item{
+   text-align: center;
+   width: 100%;
+   padding: 2em 1.7em;
+   display: flex;
+   justify-content: center;
+}
    
 /* Elementos con pseudoclases */
- .banner-layer:hover{
+.business-card:nth-of-type(2), .business-card:nth-of-type(3){
+   background-color: var(--title-blue-color);
+}
+.business-card:first-of-type, .business-card:last-of-type{
+   background-color: var(--title-green-color);
+}
+.valores-item:nth-of-type(odd){
+   background-color: var(--title-green-color);
+}
+.valores-item:nth-of-type(even){
+   background-color: var(--title-blue-color);
+}
+.banner-layer:hover{
    background-color: rgba(0,0,0,0.6);
- }
+}
 
  /* Responsive Web Design */
-@media (max-width:1192px){
-   .card-image{
-      height: 20em;
-   }
-}
 @media (max-width:828px){
-   .banner{
-      height: 20em;
-   }
    .card-logo{
       width: 40%;
    }
-   .card-image{
-      height: 16em;
-   }
-   .card-content{
-      font-size: 20px;
-      padding: 1em 2em;
-   }
 }
-@media (max-width:634px){
-   .banner{
-      width: 100vw;
+@media (max-width:768px){
+   .valores-item{
+      width: 100%;
    }
-   .card-container{
-      width: 90vw;
+   .business-card:nth-of-type(odd){
+      background-color: var(--title-green-color);
    }
-}
-@media (max-width:560px){
-   .banner{
-      height: 15em;
-   }
-   .card-container{
-      width: 100vw;
-   }
-   .card-content{
-      font-size: 18px;
-      padding: 1em;
-   }
-   .card-image{
-      height: 12em;
+   .business-card:nth-of-type(even){
+      background-color: var(--title-blue-color);
    }
 }
 @media (max-width:408px){
-   .banner{
-      height: 12em;
-   }
-   .card-image{
-      height: 10em;
-   }
    .card-logo{
       width: 50%;
    }
-   .card-content{
-      font-size: 16px;
-   }
+   /* .business-card{
+      padding: 3em 2em;
+   } */
 }

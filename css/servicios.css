@@ -117,3 +117,21 @@ nav > ul {
 .card-img-top{
     height: 623px;
 }
+  /*::::::::::::::::::::::::::::::::::::::::*/
+
+  .especial1{
+    background: rebeccapurple;
+
+  }
+
+  .especial2 {
+
+    background: coral;
+
+  }
+
+  .especial3 {
+    background: yellow;
+    margin-top: -36px;
+    
+  }

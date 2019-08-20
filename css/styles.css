@@ -29,6 +29,7 @@ body {
    padding-top: 60px;
    font-family: 'Bahnschrift SemiCondensed';
    font-weight: 300;
+   font-size: 24px;
    background-color: var(--body-bg);
 }
 
@@ -53,16 +54,37 @@ body {
 }
 .input-group-btn{
    width: 2rem;
-   padding: 0.1rem;
-   font-size: 0.8rem;
+}
+.btn-search{
+   width: 100%;
+   height: 100%;
+   padding: 0.4rem;
 }
 .input-group-btn, .navbar .form-control{
    border: none;
    background-color: var(--nav-bg);
-   height: 1.6rem;
+   height: 1.7rem;
 }
 .navbar-light .navbar-nav .nav-link{
-   color: var(--nav-text-color);
+   color: var(--text-black-color);
+}
+
+/* Migas de pan */
+.nav-crumbs{
+   list-style: none;
+   display: flex;
+   font-size: 1.1em;
+   padding: 0.4em 1em;
+   margin-bottom: 1.5em;
+   box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+}
+.crumb-item{
+   display: inline-block;
+}
+.crumb-link{
+   font-weight: 400;
+   color: var(--text-black-color);
+   padding: 0.4em;
 }
 
 /* Contenedores */
@@ -81,44 +103,28 @@ body {
    align-items: flex-start;
    transition: background-color 0.2s ease-in-out;
  }
- .card-container{
-   width: 85vw;
-   background-color: var(--card-bg);
-   margin: 0 auto 4em;
- }
- .card-content{
-   font-size: 24px;
-   padding: 1em 3.5em;
-   color: var(--text-color);
- }
  .card-image{
    display: block;
    width: 100%;
    height: 25em;
  }
- .list-decimal{
-   list-style: decimal;
+ .padding-x{
    padding: 0 2em;
- }
- .list-decimal > li{
-   margin-bottom: 0.5em;
  }
 
 /* Estilos para títulos */
 .title, .title-section{
    font-family: 'Bahnschrift Regular';
    font-weight: 400;
-   text-align: center;
-   color: var(--title-color);
-}
-.title{
-   font-size: 13vw;
-   margin-bottom: 0;
+   font-size: 1.7em;
+   color: var(--title-black-color);
+   padding-left: 1em;
+   margin-bottom: 1.2em;
    cursor: default;
 }
-.title-section{
-   font-size: 50px;
-   margin-bottom: 1.2em;
+.title-line{
+   padding-bottom: 0.15em;
+   border-bottom: 3px solid var(--title-blue-color);
 }
 
 /* Elementos con pseudoclases */
@@ -131,83 +137,47 @@ body {
 .input-group-btn:enabled{
    outline: none;
 }
+.crumb-link:hover{
+   text-decoration: none;
+   color: black;
+}
+.crumb-item:not(:last-of-type)::after{
+   content: '|';
+   color: var(--text-black-color);
+   padding: 0 0.1em;
+}
 .banner-layer:hover{
    background-color: rgba(0,0,0,0.6);
  }
 
 /* Responsive Web Design */
-@media (max-width:1192px){
-   .card-image{
-      height: 20em;
-   }
-   .title{
-      padding-top: 0.08em;
-   }
-}
-@media (max-width:828px){
-   .banner{
-      height: 20em;
-   }
-   .card-image{
-      height: 16em;
-   }
-   .card-content{
-      font-size: 20px;
-      padding: 1em 2em;
-   }
-   .title{
-      padding-top: 0.25em;
-   }
-}
 @media (max-width:768px){
-   .title-section{
-      font-size: 40px;
-      margin-bottom: 1em;
+   body{
+      font-size: 20px;
+   }
+   .nav-bg{
+      font-size: 1rem;
    }
    .navbar .input-group{
       width: 100%;
    }
 }
-@media (max-width:634px){
-   .banner{
-      width: 100vw;
-   }
-   .card-container{
-      width: 90vw;
-   }
-   .title{
-      padding-top: 0.68em;
-   }
-}
-@media (max-width:560px){
-   .banner{
-      height: 15em;
-   }
-   .card-container{
-      width: 100vw;
-   }
-   .card-content{
-      font-size: 18px;
-      padding: 1em;
-   }
-   .card-image{
-      height: 12em;
-   }
-   .title{
-      padding-top: 0.45em;
-   }
-}
+
 @media (max-width:408px){
+   body, .nav-bg{
+      font-size: 14px;
+   }
    .banner{
       height: 12em;
    }
    .card-image{
       height: 10em;
    }
-   .card-content{
-      font-size: 16px;
+   .title{
+      padding-left: 0.6em;
    }
    .title-section{
-      font-size: 34px;
+      padding: 0;
+      text-align: center;
    }
 }
