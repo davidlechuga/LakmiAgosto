@@ -151,12 +151,12 @@ textarea {
 }
 
 .p__conacto > a {
-  color: $links;
+  color: #01AEF0;
 }
 
 .p__conacto > a:hover {
   text-decoration: none;
-  color: $links-activo;
+  color: #45C7AA;
 }
 
 /****************************/
