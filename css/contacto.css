@@ -173,12 +173,12 @@ textarea {
 .empresa .name__empresa {
   color: #fff;
   font-family: 'Bahnschrift Regular'; 
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 
 .social a {
-  padding: 0 .6em;
+  padding: 0 .4em;
 }
 
 .menu-pie {
@@ -188,7 +188,8 @@ textarea {
 .menu-pie li {
   display: inline-block;
   font-family: 'Bahnschrift SemiCondensed';
-  padding:.6em;
+  font-size: 1em;
+  padding:.5em;
 }
 
 .menu-pie li a {
