@@ -163,7 +163,7 @@ body {
    }
 }
 
-@media (max-width:408px){
+@media (max-width:414px){
    body, .nav-bg{
       font-size: 14px;
    }
