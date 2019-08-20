@@ -5,16 +5,18 @@
    padding: 0;
 }
 :root{
-   --body-bg:#efefef;
-   --nav-bg:#ddd; /* rgb(221, 221, 221);*/
-   --nav-text-color:#141414; /*rgb(20, 20, 20);*/
-   --nav-search-color: #b4b4b4; /*rgb(180,180,180);*/
+   /* --body-bg:#efefef;
+   --nav-bg:#ddd;
+   --nav-text-color:#141414;
+   --nav-search-color: #b4b4b4; */
    --nav-search-focus: rgba(120,120,120,0.25);
    /* --title-color: #7f7f7f; RGB 127
    --text-color: #646464; RGB 100 */
-   --card-bg: #254061;
    --title-color: #ddd;
    --text-color: #bbb;
+
+   --gray-dark-bg: #748187;
+   --gray-light-bg:#e1e5e6;
 
    --title-blue-color: rgb(1,174,240);
    --title-green-color: rgb(69, 199, 170);
@@ -30,13 +32,13 @@ body {
    font-family: 'Bahnschrift SemiCondensed';
    font-weight: 300;
    font-size: 24px;
-   background-color: var(--body-bg);
+   background-color: var(--gray-light-bg);
 }
 
 /* Estilos de navbar */
 .nav-bg{
    font-weight: 400;
-   background-color: var(--nav-bg);
+   background-color: var(--gray-dark-bg);
    font-size: 18px;
 }
 .nav-logo{
@@ -46,11 +48,8 @@ body {
 .input-group{
    border-radius: 15px;
    overflow: hidden;
-   border: 1px solid var(--nav-search-color);
+   border: 1px solid var(--gray-light-bg);
    transition: box-shadow .15s ease-in-out;
-}
-.form-control{
-   padding-right: 0.2rem;
 }
 .input-group-btn{
    width: 2rem;
@@ -62,11 +61,15 @@ body {
 }
 .input-group-btn, .navbar .form-control{
    border: none;
-   background-color: var(--nav-bg);
+   background-color: var(--gray-dark-bg);
    height: 1.7rem;
 }
-.navbar-light .navbar-nav .nav-link{
-   color: var(--text-black-color);
+.navbar .form-control{
+   color: var(--gray-light-bg);
+   padding-right: 0.2rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+   color: var(--text-white-color);
 }
 
 /* Migas de pan */
@@ -87,27 +90,7 @@ body {
    padding: 0.4em;
 }
 
-/* Contenedores */
-.banner{
-   margin: 1.5rem auto 4rem;
-   width: 95vw;
-   height: 25em;
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
- }
- .banner-layer{
-   height: 100%;
-   background-color: rgba(0,0,0,0.5);
-   display: flex;
-   justify-content: center;
-   align-items: flex-start;
-   transition: background-color 0.2s ease-in-out;
- }
- .card-image{
-   display: block;
-   width: 100%;
-   height: 25em;
- }
+/* Estilos para espaciados */
  .padding-x{
    padding: 0 2em;
  }
@@ -132,7 +115,7 @@ body {
    box-shadow: none;
 }
 .input-group:hover{
-   box-shadow: 0 0 .2rem .1rem var(--nav-search-focus);
+   box-shadow: 0 0 .2rem .1rem rgba(255,255,255,0.25);   
 }
 .input-group-btn:enabled{
    outline: none;
@@ -146,9 +129,6 @@ body {
    color: var(--text-black-color);
    padding: 0 0.1em;
 }
-.banner-layer:hover{
-   background-color: rgba(0,0,0,0.6);
- }
 
 /* Responsive Web Design */
 @media (max-width:768px){
@@ -164,14 +144,8 @@ body {
 }
 
 @media (max-width:414px){
-   body, .nav-bg{
+   body{
       font-size: 14px;
-   }
-   .banner{
-      height: 12em;
-   }
-   .card-image{
-      height: 10em;
    }
    .title{
       padding-left: 0.6em;
