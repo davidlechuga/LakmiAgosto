@@ -25,8 +25,8 @@ section {
     margin-bottom: 25px;
                                 }
 
-.iconseccion2{
-    block-size: 75px;
+.iconseccion1{
+    background: var(--title-blue-color);
              }
 
 
@@ -45,3 +45,9 @@ section {
     padding-bottom: 40px;
     padding-top: 40px;
                           }
+
+.iconseccion1 , .iconseccion2 {
+    block-size: 100px;
+}
+
+
