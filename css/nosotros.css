@@ -81,7 +81,7 @@
       background-color: var(--title-blue-color);
    }
 }
-@media (max-width:408px){
+@media (max-width:414px){
    .card-logo{
       width: 50%;
    }
