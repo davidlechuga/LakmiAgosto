@@ -87,27 +87,7 @@ body {
    padding: 0.4em;
 }
 
-/* Contenedores */
-.banner{
-   margin: 1.5rem auto 4rem;
-   width: 95vw;
-   height: 25em;
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
- }
- .banner-layer{
-   height: 100%;
-   background-color: rgba(0,0,0,0.5);
-   display: flex;
-   justify-content: center;
-   align-items: flex-start;
-   transition: background-color 0.2s ease-in-out;
- }
- .card-image{
-   display: block;
-   width: 100%;
-   height: 25em;
- }
+/* Estilos para espaciados */
  .padding-x{
    padding: 0 2em;
  }
@@ -146,9 +126,6 @@ body {
    color: var(--text-black-color);
    padding: 0 0.1em;
 }
-.banner-layer:hover{
-   background-color: rgba(0,0,0,0.6);
- }
 
 /* Responsive Web Design */
 @media (max-width:768px){
@@ -164,14 +141,8 @@ body {
 }
 
 @media (max-width:414px){
-   body, .nav-bg{
+   body{
       font-size: 14px;
-   }
-   .banner{
-      height: 12em;
-   }
-   .card-image{
-      height: 10em;
    }
    .title{
       padding-left: 0.6em;
