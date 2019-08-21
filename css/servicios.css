@@ -272,3 +272,294 @@ nav > ul {
     margin-top: -36px;
     
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+  /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+  /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+  /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+  /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+  /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+  /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+  /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+
+
+
+
+
+/****************************/
+/*    ESTILOS GENERALES     */
+/****************************/
+body {
+  background: #E1E5E6;
+  font-size: 1.1em;
+}
+
+.foot_address, 
+.pie_pag{
+  background: #748187;
+}
+
+/**********************************/
+/*    SECCION TITULO CONTACTO     */
+/**********************************/
+
+.contacto h2 {
+  text-align: center;
+  font-weight: bold; 
+  font-family: 'Bahnschrift Regular';
+  position: relative;
+  margin: 2rem 0;
+}
+
+.contacto h2::after {
+  content: "";
+  position: absolute;
+  left: 40%;
+  top: 120%;
+  width: 20%;
+  border: 1px solid #47C7AA; 
+  }
+
+.contact-page-title {
+  height: 70px;
+  border-bottom: 1px solid #CBCECF;
+  -webkit-box-shadow: 5px 5px 3px 0px rgba(203,206,207,1);
+  -moz-box-shadow: 5px 5px 3px 0px rgba(203,206,207,1);
+  box-shadow: 5px 5px 3px 0px rgba(203,206,207,1);
+}
+
+
+.contact-page-title-h1 h1 {
+  color: #363535;
+  font-size: 1.4em;
+  font-family: 'Bahnschrift Regular';
+  font-weight: bold;
+  display: table-cell;
+  margin: 0;
+  padding: 0 1rem;
+  vertical-align: middle;
+}
+
+/****************************/
+/*    SECCION CONTACTO      */
+/****************************/
+
+textarea {
+  resize: none;
+  min-height: 250px;
+}
+
+.info_contact {
+  width: 1em;
+  font-family: 'Bahnschrift Regular';
+  font-weight: bold;
+}
+
+.mapa_google {
+  width: 100%;
+}
+
+.mapa_google iframe {
+  width: 95%;
+  height: 400px;
+}
+
+.importante {
+  color: #47C7AA;
+}
+
+.form-boton {
+  background: #45C7AA;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.form-boton:hover {
+  background: #04AEEF;
+  color: #fff;
+}
+
+.direccion {
+  padding-right: 30%;
+}
+
+.contacto_form {
+  padding-left: 5%;
+}
+
+.contacto_form > label {
+  font-family: 'Bahnschrift SemiCondensed';
+}
+
+.p__conacto > a {
+  color: #04AEEF;
+}
+
+.p__conacto > a:hover {
+  text-decoration: none;
+  color: #45C7AA;
+}
+
+textarea {
+  resize: none;
+  min-height: 250px;
+}
+
+.mapa_google {
+  width: 100%;
+}
+
+.mapa_google iframe {
+  width: 95%;
+  height: 400px;
+}
+
+.form-boton {
+  background: #45C7AA;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.form-boton:hover {
+  background: #04AEEF;
+  color: #fff;
+}
+
+.direccion {
+  padding-right: 30%;
+}
+
+.contacto_form {
+  padding-left: 5%;
+}
+
+.p__contacto {
+  font-family: 'Bahnschrift SemiCondensed';
+  font-size: 2em;
+}
+
+.p__conacto > a {
+  color: #01AEF0;
+}
+
+.p__conacto > a:hover {
+  text-decoration: none;
+  color: #45C7AA;
+}
+
+/****************************/
+/*        FOOTER            */
+/****************************/
+
+.contacto__division__address p,
+.division__mail__address p,
+.p__direction__address p {
+  color: #fff;
+  font-size: 1em;
+}
+
+.empresa .name__empresa {
+  color: #fff;
+  font-family: 'Bahnschrift Regular'; 
+  font-size: 1.1em;
+}
+
+
+.social a {
+  padding: 0 .6em;
+}
+
+.menu-pie {
+  padding: 0;
+  margin: 0;
+}
+.menu-pie li {
+  display: inline-block;
+  font-family: 'Bahnschrift SemiCondensed';
+  padding:.6em;
+}
+
+.menu-pie li a {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 1em;
+} 
+
+.menu-pie a:hover {
+  color: #45C7AA;
+}
+
+.menu-pie .linea:before {
+  content: "|         ";
+}
+
+.row {
+  margin: 0px;
+}
+
+.fint0 {
+  background: var(--title-blue-color);
+  padding-top: 70px;
+}
+
+#fintext1 {
+  text-align: center;
+}
+
+.fintext2 {
+  background: var(--title-green-color);
+          }
+ 
+.fintext3 {
+  background: var(--title-blue-color);
+
+}          
+
+.fintext2, .fintext3 {
+  text-align: center;
+    height: 115px;
+    padding-top: 40px;
+    -webkit-text-fill-color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
