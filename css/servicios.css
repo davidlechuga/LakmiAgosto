@@ -1,3 +1,140 @@
+/****************************/
+/*    ESTILOS GENERALES     */
+/****************************/
+body {
+  background: #E1E5E6;
+  font-size: 1em;
+}
+
+.foot_address, 
+.pie_pag{
+  background: #748187;
+}
+
+/**********************************/
+/*    SECCION TITULO CONTACTO     */
+/**********************************/
+.services-page-title {
+  height: 70px;
+  border-bottom: 1px solid #CBCECF;
+  -webkit-box-shadow: 5px 5px 3px 0px rgba(203,206,207,1);
+  -moz-box-shadow: 5px 5px 3px 0px rgba(203,206,207,1);
+  box-shadow: 5px 5px 3px 0px rgba(203,206,207,1);
+}
+
+
+.services-page-title-h1 h1 {
+  color: #363535;
+  font-size: 1.4em;
+  font-family: 'Bahnschrift Regular';
+  font-weight: bold;
+  display: table-cell;
+  margin: 0;
+  padding: 0 1rem;
+  vertical-align: middle;
+}
+
+/**********************************/
+/*      SECTION HEADER SERVICES   */
+/**********************************/
+
+.services_title h2 {
+  font-weight: bold; 
+  font-family: 'Bahnschrift Regular';
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+.services_title h2::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 120%;
+  width: 20%;
+  border: 1px solid #47C7AA; 
+  }
+
+.img-servicios {
+    padding: 0;
+    background: url("../images/startup-594090_1920.jpg") no-repeat center top;
+    background-attachment: fixed !important;
+    background-size: cover;
+    height: 100vh;
+  }
+
+
+/**********************************/
+/*      SECTION SERVICES          */
+/**********************************/
+
+
+.list-group-item {
+  background: #01AEF0;
+  border: none;
+  color: #fff;
+  padding: 4%;
+}
+
+.last-item {
+  padding-bottom: 100px;
+}
+
+.list-group-item:hover {
+  background: #01AEF0;
+  color: #fff;
+}
+
+.list-group-item.active {
+  background: #45C7AA !important; 
+}
+
+.lista-areas-especializadas h4 {
+  padding: 7%;
+  padding-right: 5%; 
+  padding-left: 5%;
+  font-size: 20px;
+  position: relative;
+  margin: 0;
+  background: #45C7AA;
+  color: white;
+  cursor: unset; 
+  border-right: 5px solid #40B99F;
+}
+
+.contenido-areas-especializadas {
+  background: #45C7AA;
+  color: #fff;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+
+/**********************************/
+/*      SECTION SERVICES MOBILES   */
+/**********************************/
+
+.accordion .subtitulo-2-areas {
+  text-align: center;
+  position: relative;
+  margin: 0;
+  background: #45C7AA;
+  color: white;
+}
+.accordion .subtitulo-2-areas ~ .card {
+  background: #01AEF0;
+  color: #fff; 
+}
+
+.accordion .subtitulo-2-areas ~ .card:hover {
+background: #45C7AA;
+}
+
+.card-header .btn {
+  color: #fff;
+}
+
+
+
 /* nav {
     background: rgb(221, 221, 221);
     transition: background 1s ease-in-out;
