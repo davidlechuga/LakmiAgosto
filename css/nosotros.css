@@ -42,6 +42,10 @@
    display: flex;
    justify-content: center;
 }
+
+.footer, .foot_address{
+   font-size: 17.6px;
+}
    
 /* Elementos con pseudoclases */
 .business-card:nth-of-type(2), .business-card:nth-of-type(3){
