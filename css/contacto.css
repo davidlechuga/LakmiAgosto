@@ -6,11 +6,6 @@ body {
   font-size: 1.1em;
 }
 
-.foot_address, 
-.pie_pag{
-  background: #748187;
-}
-
 /**********************************/
 /*    SECCION TITULO CONTACTO     */
 /**********************************/
@@ -158,53 +153,3 @@ textarea {
   text-decoration: none;
   color: #45C7AA;
 }
-
-/****************************/
-/*        FOOTER            */
-/****************************/
-
-.contacto__division__address p,
-.division__mail__address p,
-.p__direction__address p {
-  color: #fff;
-  font-size: 1em;
-}
-
-.empresa .name__empresa {
-  color: #fff;
-  font-family: 'Bahnschrift Regular'; 
-  font-size: 1em;
-}
-
-
-.social a {
-  padding: 0 .4em;
-}
-
-.menu-pie {
-  padding: 0;
-  margin: 0;
-}
-.menu-pie li {
-  display: inline-block;
-  font-family: 'Bahnschrift SemiCondensed';
-  font-size: 1em;
-  padding:.5em;
-}
-
-.menu-pie li a {
-  color: #fff;
-  text-decoration: none;
-  padding-top: 1em;
-} 
-
-.menu-pie a:hover {
-  color: #45C7AA;
-}
-
-.menu-pie .linea:before {
-  content: "|         ";
-}
-
-
-

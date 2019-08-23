@@ -158,3 +158,59 @@ body {
       border-bottom-width: 2px;
    }
 }
+
+
+/****************************/
+/*        FOOTER            */
+/****************************/
+
+.contacto__division__address p,
+.division__mail__address p,
+.p__direction__address p {
+  color: #fff;
+  font-size: 1em;
+}
+
+.empresa .name__empresa {
+  color: #fff;
+  font-family: 'Bahnschrift Regular'; 
+  font-size: 1em;
+}
+
+
+.social a {
+  padding: 0 .6em;
+}
+
+.menu-pie {
+  padding: 0;
+  margin: 0;
+}
+.menu-pie li {
+  display: inline-block;
+  font-family: 'Bahnschrift SemiCondensed';
+  padding:.6em;
+}
+
+.menu-pie li a {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 1em;
+} 
+
+.menu-pie a:hover {
+  color: #45C7AA;
+}
+
+.menu-pie .linea:before {
+  content: "|         ";
+}
+
+.foot_address, 
+.footer{
+  background: #748187;
+}
+
+.footer {
+   border-top: 1px solid rgba(255, 255, 255, .5);
+}
