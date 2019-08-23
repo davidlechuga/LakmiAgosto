@@ -65,11 +65,6 @@
 }
 
  /* Responsive Web Design */
-@media (max-width:828px){
-   .card-logo{
-      width: 40%;
-   }
-}
 @media (max-width:768px){
    .valores-item{
       width: 100%;
@@ -79,10 +74,5 @@
    }
    .business-card:nth-of-type(even){
       background-color: var(--title-blue-color);
-   }
-}
-@media (max-width:414px){
-   .card-logo{
-      width: 50%;
    }
 }

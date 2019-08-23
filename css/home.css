@@ -1,0 +1,122 @@
+:root{
+    --width-slider: 100vw;
+}
+
+/* Estilos de SlideShow */
+.slideshow{
+    width: var(--width-slider);
+    margin-left: auto;
+    margin-right: auto;
+    cursor: default;
+    position: relative;
+    z-index: 10;
+}
+/* Estilos del carrusel de imagenes */
+.slide-contain-items{
+    list-style: none;
+    width: 100%;
+    height: calc(var(--width-slider) * 9 / 24);
+    overflow: hidden;
+    position: relative;
+    z-index: 20;
+}
+.slide-item, .slide-img{
+    width: 100%;
+    height: 100%;
+}
+/* Estilos para las tarjetas */
+.container-titles, .slide-arts{
+    color: white;
+    position: absolute;
+    left: 2%;
+}
+.slide-arts, .slide-titles{
+    overflow: hidden;
+    z-index: 20;
+}
+.slide-titles{
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+}
+.container-titles{
+    font-family: 'Bahnschrift Regular';
+    font-size: 1.11em;
+    width: 28%;
+    height: calc((1.11em + 0.6em)*2); /* cambiar cantidad de px si cambia el px en .slide-title */
+    z-index: 20;
+    bottom: 200px;
+}
+.slide-title{
+    padding: 0.6em 1em;
+    width: 100%;
+    height: 100%;
+    background-color: #01aef0;
+    display: flex;
+    align-items: center;
+}
+.slide-arts{
+    font-size: 0.9em;
+    width: 50%;
+    height: 6em;    /* Calculado para 3 renglones más un renglón de padding superior e inferior */
+    /* top: 60%; */
+    bottom: 70px;
+}
+.slide-art{
+    width: 100%;
+    height: 100%;
+    padding: 1em 1.2em;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+}
+ 
+/* Estilos para todos los elementos del carrusel */
+.slide-item, .slide-title, .slide-art{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 100%;
+    transition: left 1.5s linear;
+    visibility: hidden;
+}
+/* clases que generan las transiciones en slider */
+.slide-prev{
+    left: -100%;
+    z-index: 100;
+    visibility: visible;
+}
+.slide-active{
+    left: 0;
+    z-index: 100;
+    visibility: visible;
+}
+.slide-art p, .slide-title h2{
+    margin-bottom: 0;
+}
+.slide-title h2{
+    font-size: 1em;
+}
+/* Elementos con pseudoclases */
+.container-titles::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 20;
+    border-right: 3em solid transparent;
+    border-bottom: calc((1.11em + 0.6em)*2 + 0.03em) solid #01aef0;
+}
+
+ /* Responsive Web Design */
+
+@media (max-width:768px){
+ 
+}
+
+ @media (max-width:414px){
+
+ }
