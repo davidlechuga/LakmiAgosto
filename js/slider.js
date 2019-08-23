@@ -1,6 +1,6 @@
 let count = 0,
             n = 0,
-            timeInterval = 6000,
+            timeInterval = 9000,
             elemenTitle = document.querySelector('.slide-titles'),
             itemsBG = [... document.querySelectorAll('.slide-item')],
             itemsTitle = [... document.querySelectorAll('.slide-title')],
