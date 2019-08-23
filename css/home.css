@@ -5,6 +5,7 @@
 /* Estilos de SlideShow */
 .slideshow{
     width: var(--width-slider);
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     cursor: default;
@@ -112,11 +113,67 @@
 }
 
  /* Responsive Web Design */
-
+ @media(max-width:1200px){
+    .container-titles{
+        width: 32%;
+        /* 
+        height: calc((1.11em + 0.6em)*2);
+        top: 40%; */
+    }
+    .slide-title{
+        padding: 0.6em 0.8em;
+    }
+}
+@media(max-width:1024px){
+    .container-titles{
+        font-size: 0.87em;
+        width: 34%;
+        /* 
+        height: calc((1.11em + 0.6em)*2);
+        top: 40%; */
+    }
+    .slide-arts{
+        font-size: 0.9em;
+        /* width: 50%;
+        height: 6em;
+        top: 60%; */
+    }
+}
 @media (max-width:768px){
- 
+    .slide-contain-items{
+        height: calc(var(--width-slider) * 9 / 18);
+    }
+    .container-titles{
+        width: 38%;
+        bottom: 160px;
+    }
+    .slide-arts{
+        font-size: 0.75em;
+        width: 55%;
+    }
+}
+@media (max-width:574px){
+    .container-titles{
+        font-size: 0.76em;
+        width: 45%;
+    }
+    .slide-arts{
+        font-size: 0.75em;
+        width: 70%;
+    }
 }
 
  @media (max-width:414px){
-
+    .slide-contain-items{
+        height: calc(var(--width-slider) * 9 / 14);
+    }
+    .container-titles{
+        font-size: 0.76em;
+        width: 60%;
+        bottom: 140px;
+    }
+    .slide-arts{
+        font-size: 0.7em;
+        width: 85%;
+    }
  }
