@@ -4,8 +4,9 @@ let count = 0,
             elemenTitle = document.querySelector('.slide-titles'),
             itemsBG = [... document.querySelectorAll('.slide-item')],
             itemsTitle = [... document.querySelectorAll('.slide-title')],
-            itemsArt = [... document.querySelectorAll('.slide-art')]
-        if(itemsBG != null && itemsTitle != null && itemsArt != null && elemenTitle != null){
+            itemsArt = [... document.querySelectorAll('.slide-art')],
+            itemsInd = [... document.querySelectorAll('.slide-indicator')]
+        if(itemsBG && itemsTitle && itemsArt && elemenTitle && itemsInd){
             n = itemsBG.length
 
             elemenTitle.addEventListener('transitionend',e => {
@@ -26,6 +27,7 @@ let count = 0,
                 itemsBG[count].classList.remove('slide-active')
                 itemsArt[count].classList.add('slide-prev')
                 itemsArt[count].classList.remove('slide-active')
+                itemsInd[count].classList.remove('indicator-active')
                 if(count == n - 1){
                     count = -1
                     itemsTitle[0].classList.add('slide-active')
@@ -40,5 +42,6 @@ let count = 0,
                 }
                 itemsBG[++count].classList.add('slide-active')
                 itemsArt[count].classList.add('slide-active')
+                itemsInd[count].classList.add('indicator-active')
             },timeInterval)
         }

@@ -25,6 +25,33 @@
     width: 100%;
     height: 100%;
 }
+/* Indicadores */
+.container-indicators{
+    padding: 0.8em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 20;
+    bottom: 0;
+}
+.slide-indicators{
+    list-style: none;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.slide-indicator{
+    padding: 0.5em;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: background-color 0.8s ease-in;
+}
+.indicator-active{
+    background-color: var(--title-blue-color);
+}
 /* Estilos para las tarjetas */
 .container-titles, .slide-arts{
     color: white;
@@ -54,7 +81,7 @@
     padding: 0.6em 1em;
     width: 100%;
     height: 100%;
-    background-color: #01aef0;
+    background-color: var(--title-blue-color);
     display: flex;
     align-items: center;
 }
@@ -107,7 +134,7 @@
     left: 100%;
     z-index: 20;
     border-right: 3em solid transparent;
-    border-bottom: calc((1.11em + 0.6em)*2 + 0.03em) solid #01aef0;
+    border-bottom: calc((1.11em + 0.6em)*2 + 0.03em) solid var(--title-blue-color);
 }
 .slide-art:nth-of-type(5){
     font-size: 0.9em;
@@ -155,6 +182,9 @@
         font-size: 0.76em;
         width: 45%;
     }
+    .slide-indicators{
+        width: 40%;
+    }
     .slide-arts{
         font-size: 0.75em;
         width: 70%;
@@ -166,6 +196,9 @@
  @media (max-width:414px){
     .slide-contain-items{
         height: calc(var(--width-slider) * 9 / 14);
+    }
+    .slide-indicators{
+        width: 55%;
     }
     .container-titles{
         font-size: 0.76em;
