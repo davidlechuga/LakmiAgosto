@@ -32,6 +32,7 @@ body {
    font-family: 'Bahnschrift SemiCondensed';
    font-weight: 300;
    font-size: 20px;
+   color: var(--text-black-color);
    background-color: var(--gray-light-bg);
 }
 
