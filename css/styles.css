@@ -131,16 +131,16 @@ body {
 }
 
 /* Responsive Web Design */
-@media (min-width:769px){
+@media (min-width:768px){
    .input-group:hover{
-      width: calc(100% - 140px - 2*16px - 16px);
+      width: calc(100% - 140px - 2*16px - 1em);
       /* 140px de logo, 16px de padding izq y der, 16px de separación al logo */
       position: absolute;
-      left: calc(140px + 16px + 16px);
+      left: calc(140px + 16px + 1em);
       /* 140px de logo, 16px de padding izq, 16px de separación al logo */
    }
 }
-@media (max-width:768px){
+@media (max-width:767px){
    body{
       font-size: 17px;
    }
