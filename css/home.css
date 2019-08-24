@@ -1,13 +1,13 @@
 :root{
     --width-slider: 100vw;
 }
-
 /* Estilos de SlideShow */
 .slideshow{
     width: var(--width-slider);
     max-width: 1287px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3em;
     cursor: default;
     position: relative;
     z-index: 10;
@@ -47,7 +47,7 @@
     border: 1px solid transparent;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.6);
-    transition: background-color 0.8s ease-in;
+    transition: background-color 1.2s ease-in;
 }
 .indicator-active{
     background-color: var(--title-blue-color);
@@ -198,7 +198,10 @@
         height: calc(var(--width-slider) * 9 / 14);
     }
     .slide-indicators{
-        width: 55%;
+        width: 45%;
+    }
+    .slide-indicator{
+        padding: 0.4em;
     }
     .container-titles{
         font-size: 0.76em;

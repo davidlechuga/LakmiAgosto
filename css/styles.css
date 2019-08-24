@@ -74,12 +74,14 @@ body {
 
 /* Migas de pan */
 .nav-crumbs{
-   list-style: none;
-   display: flex;
    font-size: 1.3em;
    padding: 0.4em 1em;
    margin-bottom: 1.5em;
-   box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+   box-shadow: 0 12px 6px -8px rgba(0,0,0,0.15);
+}
+.list-crumbs{
+   list-style: none;
+   margin: 0;
 }
 .crumb-item{
    display: inline-block;
@@ -87,7 +89,7 @@ body {
 .crumb-link{
    font-weight: 400;
    color: var(--text-black-color);
-   padding: 0.4em;
+   padding: 0.4em 0.2em;
 }
 
 /* Estilos para espaciados */
@@ -127,7 +129,7 @@ body {
 .crumb-item:not(:last-of-type)::after{
    content: '/';
    color: var(--text-black-color);
-   padding: 0 0.1em;
+   padding: 0 0.3em;
 }
 
 /* Responsive Web Design */
