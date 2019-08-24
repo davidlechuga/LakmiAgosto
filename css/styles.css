@@ -28,7 +28,7 @@
 
 }
 body {
-   padding-top: 60px;
+   padding-top: 66px;
    font-family: 'Bahnschrift SemiCondensed';
    font-weight: 300;
    font-size: 20px;
@@ -42,8 +42,8 @@ body {
    font-size: 18px;
 }
 .nav-logo{
-   height: 40px;
-   width: 120px;
+   height: 50px;
+   width: 140px;
 }
 .input-group{
    border-radius: 15px;
