@@ -1,10 +1,8 @@
-:root{
-    --width-slider: 100vw;
-}
+
 /* Estilos de SlideShow */
 .slideshow{
-    width: var(--width-slider);
-    max-width: 1287px;
+    width: 100%;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3em;
@@ -16,7 +14,7 @@
 .slide-contain-items{
     list-style: none;
     width: 100%;
-    height: calc(var(--width-slider) * 9 / 24);
+    height: calc(100vw * 9 / 24);
     overflow: hidden;
     position: relative;
     z-index: 20;
@@ -163,7 +161,7 @@
 }
 @media (max-width:768px){
     .slide-contain-items{
-        height: calc(var(--width-slider) * 9 / 18);
+        height: calc(100vw * 9 / 18);
     }
     .container-titles{
         width: 38%;
@@ -195,7 +193,7 @@
 }
  @media (max-width:414px){
     .slide-contain-items{
-        height: calc(var(--width-slider) * 9 / 14);
+        height: calc(100vw * 9 / 14);
     }
     .slide-indicators{
         width: 45%;
