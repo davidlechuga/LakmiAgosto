@@ -382,10 +382,14 @@ body {
 .fint0 {
   background: var(--title-blue-color);
   padding-top: 70px;
+  -webkit-text-fill-color: white;
+  font-weight: 500;
 }
 
 #fintext1 {
   text-align: center;
+  -webkit-text-fill-color: white;
+  font-weight: 500;
 }
 
 .fintext2 {

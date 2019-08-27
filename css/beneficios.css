@@ -78,6 +78,56 @@ section {
 
 
 
+/**********************************/
+/*    SECCION TITULO CONTACTO     */
+/**********************************/
+.services-page-title {
+  height: 70px;
+  border-bottom: 1px solid #CBCECF;
+  -webkit-box-shadow: 5px 5px 3px 0px rgba(203,206,207,1);
+  -moz-box-shadow: 5px 5px 3px 0px rgba(203,206,207,1);
+  box-shadow: 5px 5px 3px 0px rgba(203,206,207,1);
+}
+
+
+.services-page-title-h1 h1 {
+  color: #363535;
+  font-size: 1.4em;
+  font-family: 'Bahnschrift Regular';
+  font-weight: bold;
+  display: table-cell;
+  margin: 0;
+  padding: 0 1rem;
+  vertical-align: middle;
+}
+
+
+/**********************************/
+/*      SECTION HEADER SERVICES   */
+/**********************************/
+
+.services_title h2 {
+  font-weight: bold; 
+  font-family: 'Bahnschrift Regular';
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+.services_title h2::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 120%;
+  width: 14%;
+  border: 1px solid #47C7AA; 
+  }
+
+
+
+
+
+
+
 
 
 
