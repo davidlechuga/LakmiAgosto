@@ -219,6 +219,11 @@
 /*      cards          */
 /***********************/
 
+body {
+  background: #E1E5E6;
+  font-size: 1em;
+}
+
 .seccion-servicios {
   padding-bottom: 2rem; 
 }
@@ -239,8 +244,10 @@
 }
 
 .seccion-servicios .servicio:nth-last-of-type(odd) .cara {
-      background: #fff; 
-      border: 1px solid rgba(0,0,0, .2);
+    background: url("../images/startup-594090_1920.jpg");
+    background-size: cover;
+    height: 100vh;
+    border: 13px solid #fff;
   }
 
 .seccion-servicios .servicio:nth-last-of-type(even) .cara {
@@ -249,6 +256,7 @@
 
 .seccion-servicios .servicio:nth-last-of-type(odd) .cara.post2 {
       background: #01AEF0;
+      border: 0;
 }
 
 .seccion-servicios .servicio .caja-servicio {
