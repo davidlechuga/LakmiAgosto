@@ -92,7 +92,7 @@ body {
    width: 100%;
    z-index: 100;
    left: 0;
-   top: 3.3em;
+   top: 3em;
    background-color: var(--gray-light-bg);
 }
 .title, .title-section{
@@ -146,11 +146,17 @@ body {
    .navbar .input-group{
       width: 100%;
    }
+   .title-container{
+      top: 3.47em;
+   }
 }
 
 @media (max-width:414px){
    body{
       font-size: 15px;
+   }
+   .title-container{
+      top: 4em;
    }
    .title-section{
       text-align: center;
