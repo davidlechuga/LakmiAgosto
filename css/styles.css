@@ -74,29 +74,24 @@ body {
 }
 
 /* Migas de pan */
-.nav-crumbs{
-   font-size: 1.3em;
-   padding: 0.4em 1em;
-   margin-bottom: 1.5em;
+.title-container{
+   position: sticky;
+   width: 100%;
+   z-index: 100;
+   left: 0;
+   top: 3.3em;
+   background-color: var(--gray-light-bg);
    box-shadow: 0 12px 6px -8px rgba(0,0,0,0.15);
-}
-.list-crumbs{
-   list-style: none;
-   margin: 0;
-}
-.crumb-item{
-   display: inline-block;
-}
-.crumb-link{
-   font-weight: 400;
-   color: var(--text-black-color);
-   padding: 0.4em 0.2em;
 }
 
 /* Estilos para espaciados */
- .padding-x{
-   padding: 0 2em;
- }
+
+.padding-x{
+   padding: 0 1.5em;
+}
+.space-top{
+   padding-top: 2.2em;
+}
 
 /* Estilos para títulos */
 .title, .title-section{
@@ -104,9 +99,12 @@ body {
    font-weight: 400;
    font-size: 1.7em;
    color: var(--title-black-color);
-   padding-left: 1em;
-   margin-bottom: 1.2em;
+   padding: 0.4em 1em;
+   margin: 0;
    cursor: default;
+}
+.title-mb{
+   margin-bottom: 1.2em;
 }
 .title-line{
    padding: 0.15em 0.3em;
@@ -122,15 +120,6 @@ body {
 }
 .input-group-btn:enabled{
    outline: none;
-}
-.crumb-link:hover{
-   text-decoration: none;
-   color: black;
-}
-.crumb-item:not(:last-of-type)::after{
-   content: '/';
-   color: var(--text-black-color);
-   padding: 0 0.3em;
 }
 
 /* Responsive Web Design */

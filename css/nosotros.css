@@ -1,8 +1,9 @@
-.row{
-   margin-bottom: 3em;
-}
-.col-12{
+.container-fluid{
    padding: 0;
+}
+.row{
+   margin: 0;
+   margin-bottom: 3em;
 }
  
 .title-section-3{
