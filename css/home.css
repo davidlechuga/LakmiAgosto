@@ -155,9 +155,6 @@
     .slide-arts{
         font-size: 0.9em;
     }
-    .slide-art:nth-of-type(5){
-        font-size: 0.9em;
-    }
 }
 @media (max-width:768px){
     .slide-contain-items{
@@ -171,9 +168,6 @@
         font-size: 0.75em;
         width: 55%;
     }
-    .slide-art:nth-of-type(5){
-        font-size: 0.9em;
-    }
 }
 @media (max-width:574px){
     .container-titles{
@@ -186,9 +180,6 @@
     .slide-arts{
         font-size: 0.75em;
         width: 70%;
-    }
-    .slide-art:nth-of-type(5){
-        font-size: 0.9em;
     }
 }
  @media (max-width:414px){
@@ -209,9 +200,6 @@
     .slide-arts{
         font-size: 0.7em;
         width: 85%;
-    }
-    .slide-art:nth-of-type(5){
-        font-size: 0.9em;
     }
  }
 
