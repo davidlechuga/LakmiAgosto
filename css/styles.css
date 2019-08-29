@@ -57,7 +57,7 @@ body {
    transition: box-shadow .15s ease-in-out;
 }
 .input-group-btn{
-   width: 2rem;
+   width: 32px;
 }
 .btn-search{
    width: 100%;
@@ -67,7 +67,7 @@ body {
 .input-group-btn, .navbar .form-control{
    border: none;
    background-color: var(--gray-dark-bg);
-   height: 1.7rem;
+   height: 30px;
 }
 .navbar .form-control{
    color: var(--gray-light-bg);
@@ -128,12 +128,15 @@ body {
 
 /* Responsive Web Design */
 @media (min-width:768px){
-   .input-group:hover{
-      width: calc(100% - 140px - 2*16px - 1em);
-      /* 140px de logo, 16px de padding izq y der, 16px de separación al logo */
+   .input-group{
+      border-color: transparent;
+   }
+   .navbar .form-inline{
       position: absolute;
-      left: calc(140px + 16px + 1em);
-      /* 140px de logo, 16px de padding izq, 16px de separación al logo */
+      right: 1rem;
+   }
+   .navbar .form-control{
+      display: none;
    }
 }
 @media (max-width:767px){
@@ -142,6 +145,9 @@ body {
    }
    .nav-bg{
       font-size: 1rem;
+   }
+   .navbar-collapse{
+      padding-top: 20px;
    }
    .navbar .input-group{
       width: 100%;
