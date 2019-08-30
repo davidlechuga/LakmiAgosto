@@ -2,11 +2,11 @@ let count = 0,
             n = 0,
             timeInterval = 9000,
             elemenTitle = document.querySelector('.slide-titles'),
-            itemsBG = [... document.querySelectorAll('.slide-item')],
-            itemsTitle = [... document.querySelectorAll('.slide-title')],
-            itemsArt = [... document.querySelectorAll('.slide-art')],
-            itemsInd = [... document.querySelectorAll('.slide-indicator')]
-        if(itemsBG && itemsTitle && itemsArt && elemenTitle && itemsInd){
+            itemsBG = [... document.getElementsByClassName('slide-item')],
+            itemsTitle = [... document.getElementsByClassName('slide-title')],
+            itemsArt = [... document.getElementsByClassName('slide-art')],
+            itemsInd = [... document.getElementsByClassName('slide-indicator')]
+        if(itemsBG.length && itemsTitle.length && itemsArt.length && elemenTitle.length && itemsInd.length){
             n = itemsBG.length
 
             elemenTitle.addEventListener('transitionend',e => {
