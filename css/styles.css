@@ -124,9 +124,6 @@ body {
 .form-control:focus{
    box-shadow: none;
 }
-.input-group:hover{
-   box-shadow: 0 0 .2rem .1rem rgba(255,255,255,0.25);   
-}
 .input-group-btn:enabled{
    outline: none;
 }
