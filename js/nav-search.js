@@ -24,6 +24,7 @@ if(barSearch && btnSearch){
             evNav = true
          }else{
             barSearch.style = barSearch.firstElementChild.style = null
+            barSearch.firstElementChild.value = ''
             evNav = false
          }
       }
@@ -33,6 +34,7 @@ if(barSearch && btnSearch){
       console.log('evento body')
       if((e.target !== btnSearch.firstElementChild) && (e.target !== barSearch.firstElementChild)){
          barSearch.style = barSearch.firstElementChild.style = null
+         barSearch.firstElementChild.value = ''
          evNav = false
       }
    })
