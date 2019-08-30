@@ -50,12 +50,6 @@ body {
 .nav-logo{
    height: 44px;
 }
-.input-group{
-   border-radius: 15px;
-   overflow: hidden;
-   border: 1px solid var(--gray-light-bg);
-   transition: box-shadow .15s ease-in-out;
-}
 .input-group-btn{
    width: 32px;
 }
@@ -64,14 +58,25 @@ body {
    height: 100%;
    padding: 0.4rem;
 }
-.input-group-btn, .navbar .form-control{
+.input-group-btn, .input-group .form-control{
    border: none;
    background-color: var(--gray-dark-bg);
    height: 30px;
 }
-.navbar .form-control{
+.input-group .form-control{
    color: var(--gray-light-bg);
+   padding: 0;
    padding-right: 0.2rem;
+}
+.form-inline .input-group{
+   flex-wrap: nowrap;
+   padding-left: 0.8rem;
+   width: 50px;
+   border-radius: 15px;
+   overflow: hidden;
+   background-color: var(--gray-dark-bg);
+   border: 1px solid var(--gray-light-bg);
+   transition: all 0.8s linear;
 }
 .navbar-dark .navbar-nav .nav-link{
    color: var(--text-white-color);
@@ -128,15 +133,25 @@ body {
 
 /* Responsive Web Design */
 @media (min-width:768px){
-   .input-group{
-      border-color: transparent;
-   }
    .navbar .form-inline{
       position: absolute;
       right: 1rem;
    }
-   .navbar .form-control{
-      display: none;
+   .form-inline .input-group{
+      border-color: transparent;
+   }
+   .input-group .form-control{
+      visibility: hidden;
+      width: 0.01rem;
+      transition: all 0.6s 0.2s ease-out;
+   }
+   .input-group:hover{
+      border-color: var(--gray-light-bg);
+      width: calc(98vw - 160px - 2*16px);
+   }
+   .form-inline:hover .form-control{
+      visibility: visible;
+      width: 95%;
    }
 }
 @media (max-width:767px){
