@@ -13,9 +13,10 @@ let btnSearch = document.getElementById('btn-search'),
 */
 if(barSearch && btnSearch){
    btnSearch.addEventListener('click', e => {
-      e.preventDefault();
+      e.preventDefault()
+      e.stopPropagation()
       console.log('evento boton')
-      if(innerWidth > 768){
+      if(innerWidth >= 768){
          if(!evNav){
             barSearch.style.borderColor = 'var(--gray-light-bg)'
             barSearch.style.width = 'calc(98vw - 160px - 2*16px)'
@@ -33,7 +34,7 @@ if(barSearch && btnSearch){
    })
    document.addEventListener('click', e => {
       console.log('evento body')
-      if((e.target !== btnSearch.firstElementChild) && (e.target !== barSearch.firstElementChild)){
+      if(e.target !== barSearch.firstElementChild && innerWidth >= 768){
          barSearch.style = barSearch.firstElementChild.style = null
          barSearch.firstElementChild.value = ''
          evNav = false
