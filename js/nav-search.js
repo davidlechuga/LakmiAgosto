@@ -23,13 +23,12 @@ if(barSearch && btnSearch){
             barSearch.style.boxShadow = '0 0 .2rem .1rem rgba(255,255,255,0.25)'
             barSearch.firstElementChild.style.visibility = 'visible'
             barSearch.firstElementChild.style.width = '95%'
-            barSearch.firstElementChild.value = ''
             evNav = true
          }else{
             barSearch.style = barSearch.firstElementChild.style = null
-            barSearch.firstElementChild.value = ''
             evNav = false
          }
+         barSearch.firstElementChild.value = ''
       }
    })
    /* Eventos en input text de bar search */
@@ -47,11 +46,11 @@ if(barSearch && btnSearch){
    document.addEventListener('click', e => {
       if(innerWidth >= 768){
          barSearch.style = barSearch.firstElementChild.style = null
-         barSearch.firstElementChild.value = ''
          evNav = false
       }
       else{
          barSearch.style.boxShadow = 'none'
       }
+      barSearch.firstElementChild.value = ''
    })
 }
