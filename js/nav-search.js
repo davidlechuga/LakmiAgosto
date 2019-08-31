@@ -12,10 +12,10 @@ let btnSearch = document.getElementById('btn-search'),
 }
 */
 if(barSearch && btnSearch){
+   /* Evento en boton de bar search */
    btnSearch.addEventListener('click', e => {
       e.preventDefault()
       e.stopPropagation()
-      console.log('evento boton')
       if(innerWidth >= 768){
          if(!evNav){
             barSearch.style.borderColor = 'var(--gray-light-bg)'
@@ -23,6 +23,7 @@ if(barSearch && btnSearch){
             barSearch.style.boxShadow = '0 0 .2rem .1rem rgba(255,255,255,0.25)'
             barSearch.firstElementChild.style.visibility = 'visible'
             barSearch.firstElementChild.style.width = '95%'
+            barSearch.firstElementChild.value = ''
             evNav = true
          }else{
             barSearch.style = barSearch.firstElementChild.style = null
@@ -30,23 +31,27 @@ if(barSearch && btnSearch){
             evNav = false
          }
       }
-      
    })
+   /* Eventos en input text de bar search */
+   barSearch.firstElementChild.addEventListener('click', e =>{
+      e.stopPropagation()
+      if(innerWidth < 768){
+         barSearch.style.boxShadow = '0 0 .2rem .1rem rgba(255,255,255,0.25)'
+      }
+   })
+   barSearch.firstElementChild.addEventListener('keyup', e =>{
+      console.log(`buscar resultados para: ${e.target.value}`)
+
+   })
+   /* Evento en html para cerrar bar search */
    document.addEventListener('click', e => {
-      console.log('evento body')
-      if(e.target !== barSearch.firstElementChild && innerWidth >= 768){
+      if(innerWidth >= 768){
          barSearch.style = barSearch.firstElementChild.style = null
          barSearch.firstElementChild.value = ''
          evNav = false
       }
-      if(innerWidth < 768){
-         if(e.target === barSearch.firstElementChild){
-            barSearch.style.boxShadow = '0 0 .2rem .1rem rgba(255,255,255,0.25)'
-         }
-         else{
-            barSearch.style.boxShadow = 'none'
-         }
+      else{
+         barSearch.style.boxShadow = 'none'
       }
-      
    })
 }
