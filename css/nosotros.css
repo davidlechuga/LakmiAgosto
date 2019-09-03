@@ -42,31 +42,11 @@
 }
    
 /* Elementos con pseudoclases */
-.business-card:nth-of-type(2), .business-card:nth-of-type(3){
-   background-color: var(--title-blue-color);
-}
-.business-card:first-of-type, .business-card:last-of-type{
+.valores-item:nth-of-type(odd),
+.business-card:nth-of-type(odd){
    background-color: var(--title-green-color);
 }
-.valores-item:nth-of-type(odd){
-   background-color: var(--title-green-color);
-}
-.valores-item:nth-of-type(even){
+.valores-item:nth-of-type(even),
+.business-card:nth-of-type(even){
    background-color: var(--title-blue-color);
-}
-.banner-layer:hover{
-   background-color: rgba(0,0,0,0.6);
-}
-
- /* Responsive Web Design */
-@media (max-width:768px){
-   .valores-item{
-      width: 100%;
-   }
-   .business-card:nth-of-type(odd){
-      background-color: var(--title-green-color);
-   }
-   .business-card:nth-of-type(even){
-      background-color: var(--title-blue-color);
-   }
 }
