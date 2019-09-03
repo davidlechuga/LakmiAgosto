@@ -50,3 +50,10 @@
 .business-card:nth-of-type(even){
    background-color: var(--title-blue-color);
 }
+
+/* Responsive Web Design */
+@media (min-width:800px){
+   .business-card{
+      padding: 3em 20%;
+   }
+}
