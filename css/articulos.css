@@ -1,0 +1,56 @@
+
+
+/****************************/
+/*    ESTILOS GENERALES     */
+/****************************/
+body {
+    background: #E1E5E6;
+    font-size: 1.1em;
+  }
+  
+  .foot_address, 
+  .pie_pag{
+    background: #748187;
+  }
+  
+  
+  
+  /**********************************/
+  /*      SECTION HEADER SERVICES   */
+  /**********************************/
+  
+  .services_title h2 {
+    font-weight: bold; 
+    font-family: 'Bahnschrift Regular';
+    position: relative;
+    margin: 1.5rem 0;
+  }
+  
+  .services_title h2::after {
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 120%;
+    width: 14%;
+    border: 1px solid #47C7AA; 
+    }
+  
+    
+  /****************/
+  /*      footer  */
+  /****************/
+    
+    .empresa,
+    .social {
+     display: table-cell;
+      margin: 0;
+      padding: 0;
+      vertical-align: middle;
+    }
+    
+    .social a {
+      padding: 0 .3em;
+    }
+  
+  
+    
