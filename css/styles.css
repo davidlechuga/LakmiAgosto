@@ -137,10 +137,11 @@ body {
       right: 1rem;
    }
    .form-inline .input-group{
+      justify-content: flex-end;
       border-color: transparent;
    }
    .input-group .form-control{
-      visibility: hidden;
+      display: none;
       width: 0.01rem;
       transition: all 0.6s 0.2s ease-out;
    }
