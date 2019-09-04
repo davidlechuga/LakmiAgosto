@@ -79,7 +79,7 @@
     padding: 0.6em 1em;
     width: 100%;
     height: 100%;
-    background-color: var(--title-blue-color);
+    background-color: var(--blue-color-alpha);
     display: flex;
     align-items: center;
 }
@@ -132,7 +132,7 @@
     left: 100%;
     z-index: 20;
     border-right: 3em solid transparent;
-    border-bottom: calc((1.11em + 0.6em)*2 + 0.03em) solid var(--title-blue-color);
+    border-bottom: calc((1.11em + 0.6em)*2 + 0.9px) solid var(--blue-color-alpha);
 }
 .slide-art:nth-of-type(5){
     font-size: 0.9em;
