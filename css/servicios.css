@@ -64,9 +64,9 @@ body {
 
 
 .list-group-item {
-  background: #01AEF0;
+  background: #fff;
   border: none;
-  color: #fff;
+  color: #000;
   padding: 4%;
 }
 

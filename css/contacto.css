@@ -69,6 +69,7 @@ textarea {
 .mapa_google iframe {
   width: 95%;
   height: 400px;
+  border-radius: 20px;
 }
 
 .importante {
