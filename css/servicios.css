@@ -372,6 +372,7 @@ body {
   margin: 0;
   padding: 0 1rem;
   vertical-align: middle;
+  position: sticky;
 }
 
 
