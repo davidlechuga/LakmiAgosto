@@ -62,7 +62,7 @@ body {
 }
 .input-group-btn, .input-group .form-control{
    border: none;
-   background-color: var(--gray-dark-bg);
+   background-color: inherit;
    height: 30px;
 }
 .input-group .form-control{
