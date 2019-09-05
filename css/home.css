@@ -275,15 +275,6 @@
     justify-content: center; 
 }
 
-.seccion-servicios .servicio .caja-servicio .cara.posterior {
-    font-size: 15px;
-    font-family: 'Bahnschrift SemiCondensed';
-    transform: rotateY(180deg); 
-}
-
-.seccion-servicios .servicio:hover .caja-servicio {
-    transform: rotateY(180deg); 
-}
 
 .seccion-servicios .contenedor-servicios-1 {
     display: block;
