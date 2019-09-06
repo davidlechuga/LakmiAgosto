@@ -56,4 +56,8 @@
    .business-card{
       padding: 3em 20%;
    }
+   .padding-x{
+      padding-left: 4%;
+      padding-right: 6%;
+   }
 }
