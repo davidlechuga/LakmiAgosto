@@ -18,7 +18,7 @@ smoothScroll.init({
 $(function () {
     $(window).scroll(function () {
         var scrolltop = $(this).scrollTop();
-        if (scrolltop >= 300) {
+        if (scrolltop >= 600) {
             $(".ir-arriba").fadeIn();
         } else {
             $(".ir-arriba").fadeOut();

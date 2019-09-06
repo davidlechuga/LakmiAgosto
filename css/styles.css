@@ -243,3 +243,28 @@ body {
 .footer {
    border-top: 1px solid rgba(255, 255, 255, .5);
 }
+
+/****************************/
+/*        IR ARRIBA:        */
+/****************************/
+
+.ir-arriba {
+   position: fixed;
+   bottom: 5rem;
+   right: 1rem;
+   font-size: 3rem;
+   color: #CA0000;
+   text-decoration: none;
+   z-index: 99999;
+   line-height: 0;
+   -webkit-transition: all .5s ease;
+   transition: all .5s ease;
+   display: none;
+}
+
+.ir-arriba:hover,
+.ir-arriba:focus {
+  outline: 0;
+  text-decoration: none;
+  color: #1615C8; 
+}
