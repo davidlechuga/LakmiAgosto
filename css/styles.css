@@ -102,7 +102,7 @@ body {
    top: 3em;
    background-color: var(--gray-light-bg);
 }
-.title, .title-section{
+.title{
    font-family: 'Bahnschrift Regular';
    font-weight: 400;
    font-size: 1.6em;
