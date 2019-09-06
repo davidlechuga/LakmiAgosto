@@ -23,7 +23,7 @@ if(searchBar && btnSearch){
       if(innerWidth >= 768){
          if(!evNav){
             searchBar.style.borderColor = 'var(--gray-light-bg)'
-            searchBar.style.width = 'calc(' + document.documentElement.clientWidth + 'px - 160px - 2*16px - 12px)'
+            searchBar.style.width = 'calc(' + document.body.clientWidth + 'px - 160px - 2*16px - 12px)'
             searchBar.style.boxShadow = '0 0 .2rem .1rem rgba(255,255,255,0.25)'
             searchBar.firstElementChild.style.width = 'calc(100% - 50px)'
             setTimeout(() =>{
@@ -49,7 +49,7 @@ if(searchBar && btnSearch){
       }
    })
    /* Evento en body para cerrar bar search */
-   document.documentElement.lastElementChild.addEventListener('click', e => {
+   document.body.addEventListener('click', e => {
       if(innerWidth >= 768)
          closeSearch()
       else
