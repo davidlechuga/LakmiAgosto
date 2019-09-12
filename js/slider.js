@@ -10,7 +10,7 @@ if(elemenTitle && itemsBG.length && itemsTitle.length && itemsArt.length && item
     n = itemsBG.length
 
     elemenTitle.addEventListener('transitionend',e => {
-        if(count == 0 || count == 4)
+        if((count == 0 || count == 4) && [... e.target.classList].indexOf('slide-prev'))
             e.target.classList.remove('slide-prev')
     })
 
