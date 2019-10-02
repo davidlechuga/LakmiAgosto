@@ -1,0 +1,9 @@
+---
+applications:
+ - buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+   name: Alemania
+   random-route: false
+   memory: 128M
+   stack: cflinuxfs3
+
+
